@@ -33,10 +33,9 @@ h1 {
     text-align: center;
     margin: 0 auto;
     max-width: 368px;
-    min-width: 144px;
-    padding-top: 2%;
-    margin-bottom: -2%;
+    min-width: 80px;
     width: 99.375%;
     width: -webkit-calc(100% - 2px);
     width: calc(100% - 2px);
+    border-radius: 4%;
 }
