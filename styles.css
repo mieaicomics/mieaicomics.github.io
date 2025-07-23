@@ -1,5 +1,6 @@
 html {
-    background-color: rgb(244, 244, 244);
+    background-color: rgb(36, 36, 36);
+    /*244,244,244*/
     align-items: center;
 }
 
@@ -17,5 +18,82 @@ html {
     width: 99.375%;
     width: -webkit-calc(20% - 2px);
     width: calc(20% - 2px);
-    border-radius: 50%;
+    border-radius: 20%;
+}
+
+h1 {
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+header {
+    background-image: url("headerBackground.jpeg");
+    background-size: cover;
+    border-radius: 2%;
+}
+
+a {
+    margin: 0 auto;
+    padding-top: 2%;
+    font-size: 1.6vh;
+    border: 1vh black;
+    text-decoration: none;
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+a:visited {
+    margin: 0 auto;
+    padding-top: 2%;
+    font-size: 1.6vh;
+    border: 1vh black;
+    text-decoration: none;
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.socialbutton {
+    margin: 0 auto;
+    width: 36vh;
+    background-color: black;
+    background-size: cover;
+    margin-bottom: 4%;
+    border-radius: 10%;
+    padding: 2%;
+}
+
+.comicPics {
+    display: flex;
+    justify-content: space-around;
+    gap: 2px;
+}
+
+.comicPics img {
+    width: 30%;
+    height: auto;
+    border-radius: 1%;
+}
+
+p {
+    font-size: 1.8vh;
+    color: white;
+}
+
+.comicsPics {
+    display: flex;
+    justify-content: space-around;
+    gap: 2px;
+    padding-bottom: 4%;
+}
+
+.comicsPics img {
+    width: 30%;
+    height: auto;
+    border-radius: 1%;
 }
